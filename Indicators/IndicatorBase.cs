@@ -254,5 +254,10 @@ namespace QuantConnect.Indicators
         {
             Updated?.Invoke(this, consolidated);
         }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
     }
 }

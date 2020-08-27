@@ -67,9 +67,6 @@ namespace QuantConnect.Messaging
         public delegate void DebugEventRaised(DebugPacket packet);
         public event DebugEventRaised DebugEvent;
 
-        public delegate void SystemDebugEventRaised(SystemDebugPacket packet);
-        public event SystemDebugEventRaised SystemDebugEvent;
-
         public delegate void LogEventRaised(LogPacket packet);
         public event LogEventRaised LogEvent;
 

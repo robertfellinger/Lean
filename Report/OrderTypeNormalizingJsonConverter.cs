@@ -35,7 +35,6 @@ namespace QuantConnect.Report
     /// ]
     /// </code>
     /// </example>
-    /// <typeparam name="T">Result type to deserialize into</typeparam>
     public class OrderTypeNormalizingJsonConverter : JsonConverter
     {
         public override bool CanConvert(Type objectType)
